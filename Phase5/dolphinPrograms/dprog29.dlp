@@ -1,0 +1,11 @@
+record test {
+    k : bool;
+    a : int;
+    j : bool;
+    t : bool;
+}
+
+int main() {
+    print_integer(3);
+    return 1;
+}

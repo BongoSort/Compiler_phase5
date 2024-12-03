@@ -1,0 +1,27 @@
+
+int main() {
+    if (true) {
+        if (false) return 2;
+        else {
+            for (var i = 0; i < 5; i = i + 1) {
+                test(i);
+            }
+            testing(2);
+            return 4;
+        }
+    } else {
+        test(3);
+        return 0;
+    }
+}
+
+void test(i : int) {
+  print_integer(i);
+}
+
+void testing(i : int) {
+    if (i > 5) {
+        print_integer(i);
+    } 
+    print_integer(10);
+}

@@ -1,0 +1,14 @@
+//Void function with a return statement to stop execution
+
+void myFunction() {
+    if (true) {
+        print_integer(5);
+        return;
+    }
+    print_integer(7);
+}
+
+int main() {
+    myFunction();
+    return 0;
+}

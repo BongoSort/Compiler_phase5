@@ -1,0 +1,12 @@
+//Return void function
+
+void myFunction() {
+    if (true) {
+        print_integer(5);
+    }
+}
+
+int main() {
+    myFunction();
+    return 0;
+}

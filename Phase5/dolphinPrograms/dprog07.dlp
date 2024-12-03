@@ -1,0 +1,5 @@
+int main() {
+    var x = true;
+    var y = !x;
+    return 0;   
+}

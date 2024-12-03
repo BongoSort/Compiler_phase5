@@ -1,0 +1,14 @@
+//Function that takes both an integer and a boolean argument
+
+int myFunction(x: int, y: bool) {
+    if (y) {
+        print_integer(x);
+        return x;
+    }
+    return 111;
+}
+
+int main(){
+    myFunction(5, true);
+    return 0;
+}

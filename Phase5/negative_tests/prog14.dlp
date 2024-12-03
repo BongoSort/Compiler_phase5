@@ -1,0 +1,11 @@
+//Should be void but returns integer
+
+
+void myFunction() {
+    return 5;
+}
+
+int main() {
+    myFunction();
+    return 0;
+}

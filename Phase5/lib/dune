@@ -1,0 +1,15 @@
+(library
+ (name Phase5)
+ (libraries printbox printbox-text))
+
+(ocamllex lexDolphin)
+
+(menhir
+(merge_into parser)
+(modules parser)
+(flags --explain --dump)
+)
+
+(env
+  (dev
+    (flags (:standard -warn-error -A)))) 

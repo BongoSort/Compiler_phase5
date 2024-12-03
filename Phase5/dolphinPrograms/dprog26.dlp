@@ -1,0 +1,26 @@
+/* even-odd example 
+   - purpose: showcases mutual recursion 
+   - this program is valid.
+   - returns 1 
+*/
+int even (x:int) {
+  if (x == 0) {
+    return 0;
+  } else {
+    return odd (x - 1);   /* odd is in scope */
+  }
+}
+
+int odd (x: int) {
+  if (x == 0) {
+    return 1;
+  } else { 
+    return even (x - 1);  /* even is in scope */
+  }
+}
+
+// This example/test is taken from the handin description.
+// This is because it illustrates mutual recursion well.
+int main () {
+  return even (5);
+}

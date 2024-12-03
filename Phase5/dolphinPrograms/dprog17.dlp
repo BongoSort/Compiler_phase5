@@ -1,0 +1,16 @@
+int main() {
+// this is a comment 😀
+var x = 3, y = -9223372036854775807;
+for (x = 0; x < 5; x = x + 1) {
+    print_integer(x);
+}
+var x = false;
+var z = 3, y = 5;
+if (x) 
+if (!x) 
+z = 1; 
+else 
+z = 2;
+(z = 5);
+return (z);
+}

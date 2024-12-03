@@ -1,0 +1,10 @@
+//Should return boolean but returns integer
+
+bool myFunction() {
+    return 5;
+}
+
+int main() {
+    myFunction();
+    return 0;
+}

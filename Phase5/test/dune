@@ -1,0 +1,5 @@
+(test
+ (name Type_test)
+ (libraries ounit2 Phase5)
+ (flags
+  (:standard -warn-error -A)))

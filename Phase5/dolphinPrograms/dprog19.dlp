@@ -1,0 +1,10 @@
+//Return boolean function
+
+bool myFunction() {
+    return true;
+}
+
+int main() {
+    var x : bool = myFunction();
+    return 0;
+}

@@ -1,0 +1,24 @@
+record Elem {
+    arr : [Point];
+}
+
+record Point {
+    x : int;
+    y : int;
+}
+
+int main() {
+    var p : Point = new Point {
+        x = 5;
+        y = 10;
+    };
+    var ar = new Point[5];
+    ar[0] = p;
+    print_integer(ar[0].x);
+    ar[0].x = 50;
+    print_integer(ar[0].x);
+    var z = get_stdout();
+    var x : string = "hello";
+    output_string(x, z);
+    return 0;
+}

@@ -1,0 +1,5 @@
+//Main method has argutents, but should not have any arguments
+
+int main(x: int) {
+    return 0;
+}

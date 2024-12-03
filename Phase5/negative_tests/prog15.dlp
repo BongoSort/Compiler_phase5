@@ -1,0 +1,9 @@
+//Missing main function
+
+int myFunction() {
+    return 5;
+}
+
+int not_main() {
+    return 0;
+}

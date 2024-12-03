@@ -1,0 +1,6 @@
+int main() {
+    if (3 + 1, 2 - 1, true) {
+        print_integer(4);
+    }
+    return 1;
+}

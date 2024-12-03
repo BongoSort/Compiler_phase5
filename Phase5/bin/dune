@@ -1,0 +1,11 @@
+(executable
+ (public_name Phase5)
+ (name dolphin)
+ (libraries Phase5)
+ (flags
+  (:standard -warn-error -A)))
+
+(env
+ (dev
+  (flags
+   (:standard -warn-error -A))))

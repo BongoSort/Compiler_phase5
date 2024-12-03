@@ -1,0 +1,8 @@
+int main() {
+    var x = 5;
+    if (1 == 1){
+      var x = 20; 
+      var y = x;
+    }
+    return x;   
+}

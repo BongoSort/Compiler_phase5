@@ -1,0 +1,10 @@
+//Return integer function
+
+int myFunction() {
+    return 5;
+}
+
+int main() {
+    print_integer(myFunction());
+    return myFunction();
+}

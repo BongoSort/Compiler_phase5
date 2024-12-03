@@ -1,0 +1,8 @@
+int main() {
+    var x = read_integer();
+    if (x > 5) {
+        return x;
+    } else {
+        return x - 10;
+    }
+}

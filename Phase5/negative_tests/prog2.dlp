@@ -1,0 +1,3 @@
+//Using 'var' keyword twice - this should not be allowed
+var x = 2, var y = 3;
+return 0;

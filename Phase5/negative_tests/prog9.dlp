@@ -1,0 +1,4 @@
+//Missing ';' in for loop
+for(var x = 2;) {
+    break;
+}

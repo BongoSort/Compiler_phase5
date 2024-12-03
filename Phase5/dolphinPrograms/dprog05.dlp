@@ -1,0 +1,10 @@
+int main() {
+  var x = 5;
+  if (2 < 4) {
+    var x = 10;
+    return x;  
+  } else {
+    return x;
+  }
+  return 0;
+}

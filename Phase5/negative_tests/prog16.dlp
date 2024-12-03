@@ -1,0 +1,5 @@
+//Main method does not have int return type
+
+void main() {
+    return;
+}

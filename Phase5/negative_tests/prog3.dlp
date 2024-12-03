@@ -1,0 +1,4 @@
+//Missing ';' in var decl
+var x = 4
+
+return 0;

@@ -1,0 +1,6 @@
+int main() {
+  if (3 < 2 && 4 < 6){
+    print_integer(4);
+  }    
+return 0;
+}
